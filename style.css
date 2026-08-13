@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: 52px minmax(0, 1fr);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 0 18px;
+  border-bottom: 1px solid #111;
+  transition: background-color 120ms ease;
+}
+
+body.correct header {
+  background: #a9cfae;
+}
+
+body.wrong header {
+  background: #dfa7a7;
+}
+
+.logo {
+  width: max-content;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#status {
+  font-weight: 700;
+  text-align: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 12px;
+}
+
+#progress {
+  font-variant-numeric: tabular-nums;
+}
+
+#settings-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  color: #111;
+  background: transparent;
+  font-size: 21px;
+  line-height: 32px;
+}
+
+#settings-button:hover,
+#settings-button:focus-visible {
+  background: #0001;
+}
+
+#settings {
+  position: absolute;
+  z-index: 10;
+  top: 44px;
+  right: 12px;
+  display: grid;
+  gap: 12px;
+  min-width: 220px;
+  padding: 14px;
+  border: 1px solid #111;
+  color: #111;
+  background: #fff;
+  box-shadow: 0 5px 20px #0002;
+  font-size: 14px;
+}
+
+#settings label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+}
+
+#settings input {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  accent-color: #111;
+}
+
+#mode-select {
+  align-self: center;
+  justify-self: center;
+  max-width: 620px;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+#mode-select h1 {
+  margin: 0 0 10px;
+  font-size: clamp(28px, 5vw, 44px);
+}
+
+#mode-select p {
+  margin: 0 auto 26px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.mode-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.mode-buttons button {
+  display: grid;
+  gap: 8px;
+  min-height: 110px;
+  padding: 18px 12px;
+  border: 1px solid #111;
+  color: #111;
+  background: #fff;
+  text-align: center;
+}
+
+.mode-buttons button:hover,
+.mode-buttons button:focus-visible {
+  color: #fff;
+  background: #111;
+}
+
+.mode-buttons strong {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.mode-buttons span {
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+#change-mode {
+  padding: 7px 9px;
+  border: 1px solid #111;
+  color: #111;
+  background: #fff;
+}
+
+#change-mode:hover,
+#change-mode:focus-visible {
+  color: #fff;
+  background: #111;
+}
+
+#image-stage {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(70px, 1fr) auto minmax(70px, 1fr);
+  align-items: center;
+  gap: 18px;
+  padding: 12px 18px;
+}
+
+#image-wrap {
+  position: relative;
+  grid-column: 2;
+  max-width: calc(100vw - 260px);
+  max-height: calc(100dvh - 76px);
+  line-height: 0;
+}
+
+#quiz-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: calc(100dvh - 76px);
+  object-fit: contain;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.choice {
+  min-width: 0;
+  padding: 18px 8px;
+  border: 0;
+  color: #111;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.choice:hover,
+.choice:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#ai-button {
+  grid-column: 1;
+  justify-self: end;
+}
+
+#real-button {
+  grid-column: 3;
+  justify-self: start;
+}
+
+kbd {
+  font: inherit;
+}
+
+.marker {
+  position: absolute;
+  z-index: 1;
+  width: 26px;
+  height: 30px;
+  min-height: 0;
+  padding: 0;
+  transform: translate(-50%, -50%);
+  border: 0;
+  color: #fff;
+  background: transparent;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: center;
+  text-shadow:
+    -1px -1px 2px #000,
+    1px -1px 2px #000,
+    -1px 1px 2px #000,
+    1px 1px 2px #000,
+    0 2px 5px #000;
+}
+
+.marker:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.marker .marker-number {
+  transition: opacity 100ms ease;
+}
+
+.marker:hover .marker-number,
+.marker:focus-visible .marker-number,
+.marker.open .marker-number {
+  opacity: 0;
+}
+
+.marker .tooltip {
+  position: absolute;
+  z-index: 2;
+  bottom: calc(100% + 7px);
+  left: 50%;
+  width: min(240px, 70vw);
+  padding: 9px 11px;
+  transform: translateX(-50%);
+  color: #fff;
+  background: #111;
+  box-shadow: 0 2px 12px #0006;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+  text-shadow: none;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.marker:hover .tooltip,
+.marker:focus-visible .tooltip,
+.marker.open .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.marker.left-edge .tooltip {
+  left: 0;
+  transform: none;
+}
+
+.marker.right-edge .tooltip {
+  right: 0;
+  left: auto;
+  transform: none;
+}
+
+.marker.top-edge .tooltip {
+  top: calc(100% + 7px);
+  bottom: auto;
+}
+
+#next-button {
+  position: absolute;
+  z-index: 3;
+  bottom: 8px;
+  left: 50%;
+  padding: 5px 8px;
+  transform: translateX(-50%);
+  border: 0;
+  color: #fff;
+  background: #000a;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+#next-button:hover,
+#next-button:focus-visible {
+  background: #000;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  .mode-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    padding-inline: 10px;
+  }
+
+  #image-stage {
+    grid-template-columns: 48px minmax(0, 1fr) 48px;
+    gap: 4px;
+    padding: 8px 4px;
+  }
+
+  #image-wrap {
+    max-width: calc(100vw - 104px);
+    max-height: calc(100dvh - 68px);
+  }
+
+  #quiz-image {
+    max-height: calc(100dvh - 68px);
+  }
+
+  .choice {
+    padding-inline: 2px;
+    font-size: 14px;
+  }
+
+  .choice kbd {
+    display: block;
+  }
+
+  #status {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

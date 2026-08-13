@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Can you tell whether an image is AI-generated? Make a guess, then see the signs.">
+  <title>Is It AI?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <a class="logo" href="/">Is It AI?</a>
+      <p id="status" aria-live="polite">Loading…</p>
+      <div class="header-right">
+        <p id="progress"></p>
+        <button id="settings-button" type="button" aria-label="Settings" aria-expanded="false" aria-controls="settings">⚙</button>
+      </div>
+      <div id="settings" hidden>
+        <label><input id="skip-correct" type="checkbox"> Auto-advance when correct</label>
+        <label><input id="hide-signs" type="checkbox"> Hide tooltips</label>
+        <button id="change-mode" type="button">Change mode</button>
+      </div>
+    </header>
+
+    <section id="mode-select" aria-labelledby="mode-title">
+      <h1 id="mode-title">Choose your mode</h1>
+      <p>Easy has clear examples. Medium is less obvious. Hard uses subtle clues and lower-quality images.</p>
+      <div class="mode-buttons">
+        <button type="button" data-mode="easy"><strong>Easy</strong><span>Clear AI and real examples</span></button>
+        <button type="button" data-mode="medium"><strong>Medium</strong><span>A more balanced challenge</span></button>
+        <button type="button" data-mode="hard"><strong>Hard</strong><span>Subtle or low-quality examples</span></button>
+      </div>
+    </section>
+
+    <section id="image-stage" aria-label="Image to classify" hidden>
+      <button id="ai-button" class="choice" type="button"><kbd>←</kbd> AI</button>
+
+      <div id="image-wrap">
+        <img id="quiz-image" alt="A scene containing people">
+        <div id="markers"></div>
+        <button id="next-button" type="button" hidden>Space to continue</button>
+      </div>
+
+      <button id="real-button" class="choice" type="button">Real <kbd>→</kbd></button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
