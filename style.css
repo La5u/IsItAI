@@ -320,6 +320,25 @@ kbd {
   bottom: auto;
 }
 
+#credit {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 4px 6px;
+  color: #fff;
+  background: #000a;
+  font-size: 11px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+#credit a {
+  color: inherit;
+}
+
 #next-button {
   position: absolute;
   z-index: 3;

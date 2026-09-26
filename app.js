@@ -5,6 +5,7 @@ const progress = document.querySelector("#progress");
 const aiButton = document.querySelector("#ai-button");
 const realButton = document.querySelector("#real-button");
 const nextButton = document.querySelector("#next-button");
+const credit = document.querySelector("#credit");
 const settingsButton = document.querySelector("#settings-button");
 const settingsPanel = document.querySelector("#settings");
 const skipCorrectInput = document.querySelector("#skip-correct");
@@ -22,6 +23,29 @@ let finished = false;
 let lastGuessCorrect = false;
 let allItems = [];
 let mode = null;
+
+// AI difficulty follows the generator family, while real images keep their
+// hand-curated difficulty. Add new generators here as the collection grows.
+const generatorDifficulty = {
+  "DALL·E 3": "easy",
+  "Stable Diffusion 2.1": "easy",
+  "Stable Diffusion XL": "medium",
+  "Midjourney v6": "medium",
+  "Stable Diffusion 3": "hard",
+  "Stable Diffusion 3.5": "hard",
+  "HunyuanDiT 1.2": "medium",
+  "SDXL Realism Engine": "medium",
+  "Stable Diffusion 3.5 Large": "hard",
+  "FLUX.1 [dev]": "hard",
+  "FLUX.2": "hard",
+  "GPT Image 2": "hard",
+  "Nano Banana 2": "hard"
+};
+
+function getDifficulty(item) {
+  if (!item.ai) return item.difficulty;
+  return generatorDifficulty[item.generator] || "medium";
+}
 
 const preferences = {
   skipCorrect: localStorage.getItem("skipCorrect") === "true",
@@ -44,6 +68,7 @@ function showImage() {
   answered = false;
   document.body.classList.remove("correct", "wrong");
   markers.replaceChildren();
+  credit.hidden = true;
   nextButton.hidden = true;
   aiButton.hidden = false;
   realButton.hidden = false;
@@ -90,6 +115,21 @@ function addMarkers(signs) {
   });
 }
 
+// Several licenses (CC BY, CC BY-SA) require visible attribution.
+function showCredit(source) {
+  const [text, url] = source.split(/,\s*(?=https?:\/\/)/);
+  credit.replaceChildren(text);
+  if (url) {
+    const link = document.createElement("a");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "source";
+    credit.append(" · ", link);
+  }
+  credit.hidden = false;
+}
+
 function refreshMarkers() {
   markers.replaceChildren();
   if (!answered || finished || preferences.hideSigns || !items[current].ai) return;
@@ -121,6 +161,7 @@ function guess(guessedAI) {
     ? `AI-generated — ${item.generator || "unknown generator"}`
     : "Real photograph";
 
+  showCredit(item.source);
   refreshMarkers();
 }
 
@@ -140,6 +181,7 @@ function next() {
   finished = true;
   document.body.classList.remove("correct", "wrong");
   markers.replaceChildren();
+  credit.hidden = true;
   status.textContent = `Score: ${score} / ${items.length}`;
   progress.textContent = "";
   nextButton.textContent = "Space to play again";
@@ -223,7 +265,10 @@ fetch("data/images.json")
     return response.json();
   })
   .then((data) => {
-    allItems = data;
+    allItems = data.map((item) => ({
+      ...item,
+      difficulty: getDifficulty(item)
+    }));
     modeSelect.hidden = false;
     status.textContent = "Choose a mode";
   })

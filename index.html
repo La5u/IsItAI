@@ -25,11 +25,11 @@
 
     <section id="mode-select" aria-labelledby="mode-title">
       <h1 id="mode-title">Choose your mode</h1>
-      <p>Easy has clear examples. Medium is less obvious. Hard uses subtle clues and lower-quality images.</p>
+      <p>Easy uses older or more obvious AI generations. Hard uses newer models and real photos that can look AI-generated.</p>
       <div class="mode-buttons">
-        <button type="button" data-mode="easy"><strong>Easy</strong><span>Clear AI and real examples</span></button>
-        <button type="button" data-mode="medium"><strong>Medium</strong><span>A more balanced challenge</span></button>
-        <button type="button" data-mode="hard"><strong>Hard</strong><span>Subtle or low-quality examples</span></button>
+        <button type="button" data-mode="easy"><strong>Easy</strong><span>Older models and straightforward photos</span></button>
+        <button type="button" data-mode="medium"><strong>Medium</strong><span>Mid-generation models and mixed scenes</span></button>
+        <button type="button" data-mode="hard"><strong>Hard</strong><span>Newer models and ambiguous photos</span></button>
       </div>
     </section>
 
@@ -39,6 +39,7 @@
       <div id="image-wrap">
         <img id="quiz-image" alt="A scene containing people">
         <div id="markers"></div>
+        <p id="credit" hidden></p>
         <button id="next-button" type="button" hidden>Space to continue</button>
       </div>
 

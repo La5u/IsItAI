@@ -1,1752 +1,2183 @@
 [
   {
-    "id": "001",
-    "image": "images/001.webp",
-    "alt": "Two people beside a bench overlooking the water",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "002",
-    "image": "images/002.webp",
-    "alt": "A woman walking a small dog along a city sidewalk",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "003",
-    "image": "images/003.webp",
-    "alt": "A man standing with a bicycle at a marina",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "004",
-    "image": "images/004.webp",
-    "alt": "A man stirring food in a pan",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "005",
-    "image": "images/005.webp",
-    "alt": "A woman carrying a red umbrella on a wet city street",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "006",
-    "image": "images/006.webp",
-    "alt": "A child standing beside a bathroom sink",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 69,
-        "y": 88,
-        "text": "The child's lower leg ends in a sock-like foot that floats against the wall with no plausible support."
-      },
-      {
-        "x": 57,
-        "y": 53,
-        "text": "The visible fingers merge into one another and meet the tiled wall unnaturally."
-      },
-      {
-        "x": 89,
-        "y": 45,
-        "text": "Objects in the mirror do not form a clear, consistent reflection of the room."
-      }
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "id": "007",
-    "image": "images/007.webp",
-    "alt": "A man playing violin in a kitchen",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 78,
-        "y": 65,
-        "text": "The fretting fingers blend together and do not convincingly press individual strings."
-      },
-      {
-        "x": 61,
-        "y": 57,
-        "text": "Fine parts around the bridge and strings melt into decorative, mechanically unclear shapes."
-      },
-      {
-        "x": 18,
-        "y": 86,
-        "text": "Several pieces of food have glossy, indistinct forms rather than recognizable structure."
-      }
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "id": "008",
-    "image": "images/008.webp",
-    "alt": "A man sitting among bicycles on a city street",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 38,
-        "y": 82,
-        "text": "The rear bicycle dissolves into overlapping tubes and incomplete wheel geometry."
-      },
-      {
-        "x": 65,
-        "y": 70,
-        "text": "The man's hands, the handlebar and the neighboring bicycle merge into one unclear structure."
-      },
-      {
-        "x": 67,
-        "y": 91,
-        "text": "Pedals, feet and wheel parts overlap without a mechanically possible arrangement."
-      }
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "id": "009",
-    "image": "images/009.webp",
-    "alt": "A woman holding a large pan in a kitchen",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 78,
-        "y": 49,
-        "text": "The hand and pan handle blend together, making the grip difficult to trace."
-      },
-      {
-        "x": 37,
-        "y": 68,
-        "text": "Burners and supports form ornate but mechanically inconsistent stove geometry."
-      },
-      {
-        "x": 85,
-        "y": 16,
-        "text": "Small background utensils turn into vague, repeated decorative shapes."
-      }
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "id": "010",
-    "image": "images/010.webp",
-    "alt": "A model standing beside an orange scooter in a crowded room",
-    "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 42,
-        "y": 65,
-        "text": "The scooter's handlebar and headlight controls merge into an ambiguous cluster."
-      },
-      {
-        "x": 52,
-        "y": 91,
-        "text": "The stand, floor contact and lower scooter body do not resolve into clear mechanical parts."
-      },
-      {
-        "x": 19,
-        "y": 45,
-        "text": "Background faces and hands become distorted even though nearby clothing remains detailed."
-      }
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "id": "011",
-    "image": "images/011.webp",
-    "alt": "A man getting a drink from a water fountain that is a toilet.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "012",
-    "image": "images/012.webp",
-    "alt": "A person holding a skateboard overlooks a dead field of crops.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "013",
-    "image": "images/013.webp",
-    "alt": "A group of people riding mopeds in a busy street.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "014",
-    "image": "images/014.webp",
-    "alt": "A person walking in the rain on the sidewalk.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "015",
-    "image": "images/015.webp",
-    "alt": "People are waiting for the bus near a bus stop.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "016",
-    "image": "images/016.webp",
-    "alt": "A small child climbs atop a large motorcycle",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "017",
-    "image": "images/017.webp",
-    "alt": "A black and white photo of an older man skiing.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "018",
-    "image": "images/018.webp",
-    "alt": "The airplane is on the runway with two young men standing by.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "019",
-    "image": "images/019.webp",
-    "alt": "A man standing in a kitchen while closing a cupboard door.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "020",
-    "image": "images/020.webp",
-    "alt": "A dirt bike rider doing a stunt jump in the air",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "easy"
-  },
-  {
-    "id": "021",
-    "image": "images/021.webp",
-    "alt": "A group of people preparing food in a kitchen.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "022",
-    "image": "images/022.webp",
-    "alt": "An older man backing up a truck with a bicycle in it's flat bed.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "023",
-    "image": "images/023.webp",
-    "alt": "A group of men standing in front of a bar having a conversation.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "024",
-    "image": "images/024.webp",
-    "alt": "Elephants are in a long line with people on top of them.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "025",
-    "image": "images/025.webp",
-    "alt": "People sitting under an umbrella looking at the scenery.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "026",
-    "image": "images/026.webp",
-    "alt": "A group of people skiing down a snow covered slope.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "027",
-    "image": "images/027.webp",
-    "alt": "Boy rides skateboard and does trick over stairs.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "028",
-    "image": "images/028.webp",
-    "alt": "Three young people in a kitchen pointing to a pizza.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "029",
-    "image": "images/029.webp",
-    "alt": "A man stands with his bike in ankle deep water in a flooded city.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "030",
-    "image": "images/030.webp",
-    "alt": "A man in an ATV is moving the cows along.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "031",
-    "image": "images/031.webp",
-    "alt": "A young man standing next to a race car with the red sox logo on it's hood.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "032",
-    "image": "images/032.webp",
-    "alt": "A guy sitting on his motorcycle while a woman stands beside him",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "033",
-    "image": "images/033.webp",
-    "alt": "A very big teddy bear is next to a woman.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "034",
-    "image": "images/034.webp",
-    "alt": "A man sitting on a stone block talking on a cell phone.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "035",
-    "image": "images/035.webp",
-    "alt": "A person in a helmet standing by their motorcycle.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "036",
-    "image": "images/036.webp",
-    "alt": "A young man jumping up into the air to catch a Frisbee.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "037",
-    "image": "images/037.webp",
-    "alt": "A woman is taking a picture of herself in a bathroom mirror.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "038",
-    "image": "images/038.webp",
-    "alt": "A skateboarder is riding his skateboard at night.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "039",
-    "image": "images/039.webp",
-    "alt": "A young child stands in the kitchen with an adult.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "040",
-    "image": "images/040.webp",
-    "alt": "A woman kisses a man as they sit on a motorcycle.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "041",
-    "image": "images/041.webp",
-    "alt": "A man and a woman cook in the kitchen.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "042",
-    "image": "images/042.webp",
-    "alt": "A person in a kitchen looking at the oven.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "043",
-    "image": "images/043.webp",
-    "alt": "two women loading their bicycles onto a bus rack",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "044",
-    "image": "images/044.webp",
-    "alt": "a person riding skis in the middle of a snowy street",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "045",
-    "image": "images/045.webp",
-    "alt": "People walking toward an airplane to board it.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "046",
-    "image": "images/046.webp",
-    "alt": "A ski resort that has a couple people outside.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "047",
-    "image": "images/047.webp",
-    "alt": "A woman uses a paintbrush on a melting candle.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "048",
-    "image": "images/048.webp",
-    "alt": "A man wearing a blue bow tie and a fedora hat in a car.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "049",
-    "image": "images/049.webp",
-    "alt": "A man is walking down the street in front of a red door.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "050",
-    "image": "images/050.webp",
-    "alt": "A woman holding a sheep by its front legs.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "051",
-    "image": "images/051.webp",
-    "alt": "A man flying a kite in a park on a clear day",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "052",
-    "image": "images/052.webp",
-    "alt": "A man in a uniform standing on a motorcycle in front of a crowd.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "053",
-    "image": "images/053.webp",
-    "alt": "A girl is sitting by her dog on the stairs.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "054",
-    "image": "images/054.webp",
-    "alt": "Women taking picture of themselves while brushing their teeth.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "medium"
-  },
-  {
-    "id": "055",
-    "image": "images/055.webp",
-    "alt": "People are looking at a decorative cake with long candles.",
-    "ai": false,
-    "source": "COCO reference image via VCT\u00b2 COCO_AI",
-    "signs": [],
-    "difficulty": "hard"
-  },
-  {
-    "id": "056",
-    "image": "images/056.webp",
-    "alt": "A person sits on top of a motorcycle with a stuffed toy.",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 70,
-        "y": 91,
-        "text": "The lettering on the motorcycle fairing is a made-up, logo-like scrawl rather than a readable brand name."
-      },
-      {
-        "x": 49,
-        "y": 82,
-        "text": "The rider's shoe, ankle and motorcycle parts blend into a muddled patch with unclear boundaries."
-      },
-      {
-        "x": 76,
-        "y": 55,
-        "text": "The handlebar, mirror and windscreen join at mechanically ambiguous angles."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "057",
-    "image": "images/057.webp",
-    "alt": "A woman, man, and a dog standing in the snow.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 38,
-        "y": 36,
-        "text": "A small hand appears on the woman's far shoulder, but there is no arm that can plausibly connect to it."
-      },
-      {
-        "x": 62,
-        "y": 37,
-        "text": "The jacket logo resolves into tiny pseudo-text rather than readable lettering."
-      },
-      {
-        "x": 76,
-        "y": 91,
-        "text": "The dog's rear leg, belly and tail meet in an anatomically confused shape."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "058",
-    "image": "images/058.webp",
-    "alt": "People standing on a roadway next to a vintage motorcycle.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 53,
-        "y": 57,
-        "text": "The seated rider's lower body merges into the motorcycle and lacks a clear leg-to-foot connection."
-      },
-      {
-        "x": 53,
-        "y": 69,
-        "text": "Engine pipes and frame pieces weave into decorative shapes that do not form a workable motorcycle."
-      },
-      {
-        "x": 10,
-        "y": 38,
-        "text": "The distant riders and motorcycles collapse into repeated, malformed silhouettes."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "059",
-    "image": "images/059.webp",
-    "alt": "A dog standing next to an address marker and a woman holding an umbrella.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 36,
-        "y": 23,
-        "text": "The wall sign contains neatly rendered but meaningless numbers and symbols\u2014a common generated-text failure."
-      },
-      {
-        "x": 54,
-        "y": 50,
-        "text": "The umbrella shaft runs into the face while the hand and handle form an unclear grip."
-      },
-      {
-        "x": 67,
-        "y": 61,
-        "text": "The leash handle and the woman's gloved fingers melt into a single dark loop."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "060",
-    "image": "images/060.webp",
-    "alt": "People standing around a park bench next to a bicycle.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 54,
-        "y": 62,
-        "text": "Several hands are reduced to mitten-like shapes or disappear where they should hold objects."
-      },
-      {
-        "x": 73,
-        "y": 69,
-        "text": "The bicycle frame, pedals and rider's legs overlap without a coherent mechanical structure."
-      },
-      {
-        "x": 43,
-        "y": 48,
-        "text": "Faces share simplified, inconsistent features despite being at similar distances."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "061",
-    "image": "images/061.webp",
-    "alt": "A man standing outside of a building next to bicycles.",
-    "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 24,
-        "y": 73,
-        "text": "The foreground bicycle wheels overlap into a dense tangle of spokes and frames that cannot be traced."
-      },
-      {
-        "x": 78,
-        "y": 70,
-        "text": "The main bicycle's chain, crank and rear frame do not connect as functional parts."
-      },
-      {
-        "x": 72,
-        "y": 26,
-        "text": "Shop signs contain blurred pseudo-writing instead of stable, readable text."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "062",
-    "image": "images/062.webp",
-    "alt": "A dog rides in a cart pulled by a man on a bike.",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 65,
-        "y": 36,
-        "text": "The right handle ends in a hollow metal shape, unlike any normal bicycle brake or grip."
-      },
-      {
-        "x": 36,
-        "y": 37,
-        "text": "The rider's fingers merge with the brake assembly and cable."
-      },
-      {
-        "x": 50,
-        "y": 74,
-        "text": "The dog's forelegs cross and taper into an anatomically awkward arrangement."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "063",
-    "image": "images/063.webp",
-    "alt": "A man riding a dirt bike on a country road in a forest.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 67,
-        "y": 77,
-        "text": "The front hub, spokes and brake parts form a noisy mechanical tangle rather than distinct components."
-      },
-      {
-        "x": 47,
-        "y": 58,
-        "text": "The rider's boot, pedal and engine overlap with unclear contact points."
-      },
-      {
-        "x": 58,
-        "y": 40,
-        "text": "The small plate above the headlight contains distorted pseudo-lettering."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "064",
-    "image": "images/064.webp",
-    "alt": "A little girl is mixing in a  kitchen bowl while standing on a chair.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 49,
-        "y": 57,
-        "text": "The child's hand appears to terminate against the chair, with no convincing fingers or grip."
-      },
-      {
-        "x": 75,
-        "y": 59,
-        "text": "The oversized metal vessels hide the torso and merge into one another with inconsistent rims."
-      },
-      {
-        "x": 20,
-        "y": 29,
-        "text": "Background utensils become floating, soft-edged shapes rather than identifiable objects."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "065",
-    "image": "images/065.webp",
-    "alt": "Two people riding different colored horses down a dirty road.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 37,
-        "y": 45,
-        "text": "The left rider's hands, reins and the horse's mane merge into one dark, unreadable mass."
-      },
-      {
-        "x": 60,
-        "y": 45,
-        "text": "The right rider appears to hold reins that do not consistently connect to the bridle."
-      },
-      {
-        "x": 61,
-        "y": 79,
-        "text": "The horses' raised legs and hooves have inconsistent joints and tapering shapes."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "066",
-    "image": "images/066.webp",
-    "alt": "A man is cooking in a crowded kitchen.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 50,
-        "y": 53,
-        "text": "The chef's stirring hand and utensil fuse together, leaving an unclear number and arrangement of fingers."
-      },
-      {
-        "x": 76,
-        "y": 40,
-        "text": "Background chefs repeat similar faces and hats while their hands dissolve into vague shapes."
-      },
-      {
-        "x": 70,
-        "y": 76,
-        "text": "Vegetables and utensils on the counter have decorative outlines but inconsistent object boundaries."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "067",
-    "image": "images/067.webp",
-    "alt": "two lines of motorcycles driving down the road while a crowd watches",
-    "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 55,
-        "y": 57,
-        "text": "The central riders and headlights merge into repeated blobs; wheels and handlebars cannot be followed."
-      },
-      {
-        "x": 84,
-        "y": 61,
-        "text": "The nearest motorcycle loses coherent front-wheel and fork geometry."
-      },
-      {
-        "x": 30,
-        "y": 51,
-        "text": "Distant motorcycles repeat nearly identical bright headlight patterns with little structural detail."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "068",
-    "image": "images/068.webp",
-    "alt": "A group of older people sitting on a park bench with a dog on a leash.",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 49,
-        "y": 70,
-        "text": "The middle person's arms vanish completely while the coat and bench meet in an unnaturally seamless edge."
-      },
-      {
-        "x": 82,
-        "y": 84,
-        "text": "The right person's legs merge with the dog, leash and bench support."
-      },
-      {
-        "x": 15,
-        "y": 71,
-        "text": "The left person's jacket, bag and bench slat blend together without clear depth ordering."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "069",
-    "image": "images/069.webp",
-    "alt": "A woman hovering over food on a wooden table.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 64,
-        "y": 55,
-        "text": "The right hand has fused, irregular fingers where it holds the food."
-      },
-      {
-        "x": 41,
-        "y": 58,
-        "text": "The left hand and leafy garnish overlap in a way that makes the grip impossible to follow."
-      },
-      {
-        "x": 77,
-        "y": 78,
-        "text": "The dishes contain repeated glossy food-like textures without consistent ingredients."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "070",
-    "image": "images/070.webp",
-    "alt": "A man with glasses riding in a car with an adorable dog in the backseat.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 44,
-        "y": 58,
-        "text": "The man's hand wraps around the dog as a smooth band, with fingers that merge into the harness."
-      },
-      {
-        "x": 38,
-        "y": 67,
-        "text": "Collar, leash and chest straps cross and fuse without clear attachment points."
-      },
-      {
-        "x": 93,
-        "y": 51,
-        "text": "The car's door frame and rear trim end in warped, inconsistent geometry."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "071",
-    "image": "images/071.webp",
-    "alt": "A man riding on the back of a brown horse in front of a truck.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 50,
-        "y": 57,
-        "text": "The saddle, blanket and rider's legs blend into layered fabric-like forms with no clear stirrup connection."
-      },
-      {
-        "x": 67,
-        "y": 41,
-        "text": "Reins and bridle straps fade or join the horse's head at inconsistent points."
-      },
-      {
-        "x": 70,
-        "y": 88,
-        "text": "Trailer rails, wheel and horse legs overlap with confused depth ordering."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "072",
-    "image": "images/072.webp",
-    "alt": "A man riding a bicycle down a sidewalk.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 49,
-        "y": 43,
-        "text": "The rider's hands and handlebars form a single dark bar with no convincing fingers or controls."
-      },
-      {
-        "x": 50,
-        "y": 72,
-        "text": "The bicycle's fork, pedals and front wheel do not connect as a functional frame."
-      },
-      {
-        "x": 76,
-        "y": 45,
-        "text": "Signs and background details imitate text-like marks without readable words."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "073",
-    "image": "images/073.webp",
+    "id": "5a54425e",
+    "image": "images/5a54425e.webp",
     "alt": "a boy wearing headphones using one computer in a long row of computers",
     "ai": true,
     "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 67,
-        "y": 78,
+        "x": 67.0,
+        "y": 78.0,
         "text": "Hands on the nearest keyboards dissolve into soft, repeated finger-like shapes."
       },
       {
-        "x": 76,
-        "y": 58,
+        "x": 76.0,
+        "y": 58.0,
         "text": "The monitor content is blank or incoherent despite the detailed workstation."
       },
       {
-        "x": 54,
-        "y": 86,
+        "x": 54.0,
+        "y": 86.0,
         "text": "Rows of keyboards and arms repeat and merge together in the background."
       }
     ],
     "difficulty": "medium"
   },
   {
-    "id": "074",
-    "image": "images/074.webp",
-    "alt": "A man and a woman standing next to a motor cycle.",
+    "id": "bf073b73",
+    "image": "images/bf073b73.webp",
+    "alt": "A cyclist with a headlight riding through a snowy street at night",
+    "ai": true,
+    "generator": "FLUX.2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "80950b85",
+    "image": "images/80950b85.webp",
+    "alt": "A child standing beside a bathroom sink",
     "ai": true,
     "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 39,
-        "y": 58,
-        "text": "The man's hand beside the motorcycle is an indistinct shape with fingers merged into the handlebar area."
+        "x": 69.0,
+        "y": 88.0,
+        "text": "The child's lower leg ends in a sock-like foot that floats against the wall with no plausible support."
       },
       {
-        "x": 57,
-        "y": 70,
-        "text": "Engine tubes, frame and exhaust join into glossy decorative geometry rather than traceable parts."
+        "x": 57.0,
+        "y": 53.0,
+        "text": "The visible fingers merge into one another and meet the tiled wall unnaturally."
       },
       {
-        "x": 70,
-        "y": 43,
-        "text": "The woman's hand against the man's shoulder lacks clearly separated fingers."
+        "x": 89.0,
+        "y": 45.0,
+        "text": "Objects in the mirror do not form a clear, consistent reflection of the room."
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
-    "id": "075",
-    "image": "images/075.webp",
-    "alt": "A man wearing a striped suit standing next to butcher knives.",
+    "id": "3e335d00",
+    "image": "images/3e335d00.webp",
+    "alt": "A man wearing a blue bow tie and a fedora hat in a car.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "3fc1348d",
+    "image": "images/3fc1348d.webp",
+    "alt": "A man playing violin in a kitchen",
     "ai": true,
     "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 28,
-        "y": 47,
-        "text": "The left arm ends in a fist-like lump that does not convincingly hold or rest on anything."
+        "x": 78.0,
+        "y": 65.0,
+        "text": "The fretting fingers blend together and do not convincingly press individual strings."
       },
       {
-        "x": 91,
-        "y": 56,
-        "text": "A large knife floats upright at the frame edge without a visible support."
+        "x": 61.0,
+        "y": 57.0,
+        "text": "Fine parts around the bridge and strings melt into decorative, mechanically unclear shapes."
       },
       {
-        "x": 60,
-        "y": 85,
-        "text": "The meat and the man's hand touch with smeared boundaries and ambiguous fingers."
+        "x": 18.0,
+        "y": 86.0,
+        "text": "Several pieces of food have glossy, indistinct forms rather than recognizable structure."
       }
     ],
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
-    "id": "076",
-    "image": "images/076.webp",
-    "alt": "A woman sitting at a table while holding a pair of scissors.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 66,
-        "y": 58,
-        "text": "The raised hand and scissors are anatomically confused: fingers merge and the tool's loops do not align with them."
-      },
-      {
-        "x": 32,
-        "y": 68,
-        "text": "The other hand blends into the fabric and cutting tool, obscuring the finger count and grip."
-      },
-      {
-        "x": 67,
-        "y": 32,
-        "text": "The eyeglass temples and frames bend inconsistently around the face."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "077",
-    "image": "images/077.webp",
-    "alt": "Man on a bicycle riding on the road next to a river.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 57,
-        "y": 75,
-        "text": "The rear wheel, chain and rider's feet compress into an indistinct mechanical knot."
-      },
-      {
-        "x": 51,
-        "y": 84,
-        "text": "The bicycle's shadow contains wheel-like loops that do not align cleanly with the actual wheels."
-      },
-      {
-        "x": 69,
-        "y": 54,
-        "text": "The path forks into thin tracks with oddly smooth, painterly edges."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "078",
-    "image": "images/078.webp",
+    "id": "4f2c30d5",
+    "image": "images/4f2c30d5.webp",
     "alt": "A man sitting on a parked motorcycle on the street",
     "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 45,
-        "y": 69,
+        "x": 45.0,
+        "y": 69.0,
         "text": "The motorcycle's engine, rider's leg and frame merge into a dark mass with no traceable components."
       },
       {
-        "x": 61,
-        "y": 74,
+        "x": 61.0,
+        "y": 74.0,
         "text": "The resting hand has soft, fused fingers and an unclear wrist connection."
       },
       {
-        "x": 20,
-        "y": 23,
+        "x": 20.0,
+        "y": 23.0,
         "text": "The graffiti contains elaborate symbol-like strokes but no stable readable lettering."
       }
     ],
     "difficulty": "medium"
   },
   {
-    "id": "079",
-    "image": "images/079.webp",
-    "alt": "A birthday boy with car shaped cake and candles on it.",
+    "id": "208952c7",
+    "image": "images/208952c7.webp",
+    "alt": "A group of people riding mopeds in a busy street.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "80b25493",
+    "image": "images/80b25493.webp",
+    "alt": "A television showing a video game set up outdoors",
     "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
+    "generator": "Stable Diffusion 3.5 Large",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
     "signs": [
       {
-        "x": 83,
-        "y": 63,
-        "text": "The child's hand beside the cake has merged, uneven fingers and an unclear grip on the table edge."
+        "x": 46.2,
+        "y": 55.7,
+        "text": "The game's on-screen interface is gibberish: icons and text that look like a HUD but say nothing."
       },
       {
-        "x": 47,
-        "y": 67,
-        "text": "Candles and decorations repeat as tiny irregular spikes that blend into the frosting."
-      },
-      {
-        "x": 64,
-        "y": 86,
-        "text": "The toy car has warped wheels and pseudo-detail where lettering and windows should be."
+        "x": 45.1,
+        "y": 85.4,
+        "text": "The TV stand is a vague slab that doesn't connect to the TV's legs."
       }
     ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0f63ba4d",
+    "image": "images/0f63ba4d.webp",
+    "alt": "A ski resort that has a couple people outside.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
     "difficulty": "medium"
   },
   {
-    "id": "080",
-    "image": "images/080.webp",
-    "alt": "A man sitting in a window ledge with a cell phone in his hand.",
+    "id": "f5a2bcf3",
+    "image": "images/f5a2bcf3.webp",
+    "alt": "An older man backing up a truck with a bicycle in it's flat bed.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "51322b5a",
+    "image": "images/51322b5a.webp",
+    "alt": "A tall apartment building covered in plants",
     "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 41,
-        "y": 82,
-        "text": "The fingers around the phone merge together and the phone edge seems to pass into the hand."
-      },
-      {
-        "x": 57,
-        "y": 56,
-        "text": "The neck and shirt collar meet in an unusually smooth, cutout-like boundary."
-      },
-      {
-        "x": 83,
-        "y": 56,
-        "text": "The cast shadow's head and shoulder profile does not closely match the man's silhouette."
-      }
-    ],
+    "generator": "GPT Image 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
     "difficulty": "hard"
   },
   {
-    "id": "081",
-    "image": "images/081.webp",
-    "alt": "A little girl in ponytails holding on to a teddy bear.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 39,
-        "y": 63,
-        "text": "The girl's forearm, bracelet and teddy bear fuse together, making the hand impossible to locate."
-      },
-      {
-        "x": 65,
-        "y": 72,
-        "text": "The other hand becomes a small smooth shape merged into the bear's arm."
-      },
-      {
-        "x": 57,
-        "y": 88,
-        "text": "The bear's lower legs overlap into mismatched, asymmetrical forms."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "082",
-    "image": "images/082.webp",
-    "alt": "Six people in a boat rowing on a body of water.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 97,
-        "y": 31,
-        "text": "The person at the right edge is abruptly malformed and clipped, with a partial face and arm."
-      },
-      {
-        "x": 82,
-        "y": 59,
-        "text": "Hands and oar handles overlap into ambiguous grips rather than distinct fingers around the shaft."
-      },
-      {
-        "x": 28,
-        "y": 60,
-        "text": "The left rower's hand, oar and boat edge merge together."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "083",
-    "image": "images/083.webp",
-    "alt": "A chef in a kitchen preparing a meal.",
+    "id": "fdd710f8",
+    "image": "images/fdd710f8.webp",
+    "alt": "Man on a bicycle riding on the road next to a river.",
     "ai": true,
     "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 37,
-        "y": 62,
-        "text": "The chef's knife hand has compressed, fused fingers and an unclear grip."
+        "x": 57.0,
+        "y": 75.0,
+        "text": "The rear wheel, chain and rider's feet compress into an indistinct mechanical knot."
       },
       {
-        "x": 49,
-        "y": 77,
-        "text": "Food pieces repeat as smooth pale lumps with inconsistent edges and shadows."
+        "x": 51.0,
+        "y": 84.0,
+        "text": "The bicycle's shadow contains wheel-like loops that do not align cleanly with the actual wheels."
       },
       {
-        "x": 53,
-        "y": 41,
-        "text": "Tiny marks on the uniform resemble text but do not form a readable name or logo."
+        "x": 69.0,
+        "y": 54.0,
+        "text": "The path forks into thin tracks with oddly smooth, painterly edges."
       }
     ],
     "difficulty": "hard"
   },
   {
-    "id": "084",
-    "image": "images/084.webp",
-    "alt": "A blonde woman sitting on a park bench next to a green bike.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 53,
-        "y": 78,
-        "text": "The woman's crossed legs and hand blend into the bicycle saddle and frame, obscuring where each object begins."
-      },
-      {
-        "x": 77,
-        "y": 62,
-        "text": "Handlebars, basket and front wheel do not join into a mechanically coherent bicycle."
-      },
-      {
-        "x": 52,
-        "y": 42,
-        "text": "The supporting hand near the face has unusually smooth, poorly separated fingers."
-      }
-    ],
-    "difficulty": "medium"
+    "id": "bb8a6bb1",
+    "image": "images/bb8a6bb1.webp",
+    "alt": "A group of people preparing food in a kitchen.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
   },
   {
-    "id": "085",
-    "image": "images/085.webp",
+    "id": "1652511f",
+    "image": "images/1652511f.webp",
+    "alt": "An aerial view of a hillside town with terracotta roofs by the sea",
+    "ai": true,
+    "generator": "Nano Banana 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "e6889187",
+    "image": "images/e6889187.webp",
+    "alt": "A dog rides in a cart pulled by a man on a bike.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 65.0,
+        "y": 36.0,
+        "text": "The right handle ends in a hollow metal shape, unlike any normal bicycle brake or grip."
+      },
+      {
+        "x": 36.0,
+        "y": 37.0,
+        "text": "The rider's fingers merge with the brake assembly and cable."
+      },
+      {
+        "x": 50.0,
+        "y": 74.0,
+        "text": "The dog's forelegs cross and taper into an anatomically awkward arrangement."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "5f2b3988",
+    "image": "images/5f2b3988.webp",
     "alt": "Two men wearing aprons working in a commercial-style kitchen.",
     "ai": true,
     "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 76,
-        "y": 68,
+        "x": 76.0,
+        "y": 68.0,
         "text": "The right cook's hand, utensil and food merge into a smeared cluster over the pan."
       },
       {
-        "x": 31,
-        "y": 69,
+        "x": 31.0,
+        "y": 69.0,
         "text": "The left cook's gloved hand ends in an indistinct shape that does not clearly hold the utensil."
       },
       {
-        "x": 72,
-        "y": 39,
+        "x": 72.0,
+        "y": 39.0,
         "text": "Background containers and shelf objects repeat as soft cylinders without stable edges."
       }
     ],
     "difficulty": "medium"
   },
   {
-    "id": "086",
-    "image": "images/086.webp",
-    "alt": "A chef in a kitchen standing next to a counter with jars and containers.",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 57,
-        "y": 60,
-        "text": "The sleeve contains broken, logo-like marks that imitate embroidery without readable text."
-      },
-      {
-        "x": 43,
-        "y": 78,
-        "text": "The chef's lowered hand disappears into the counter edge rather than ending in visible fingers."
-      },
-      {
-        "x": 25,
-        "y": 75,
-        "text": "Several jars have inconsistent rims and contents that blur into the glass."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "087",
-    "image": "images/087.webp",
-    "alt": "A group of people sitting around a table under an umbrella.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 31,
-        "y": 57,
-        "text": "The woman's hands contain merged and duplicated-looking fingers around the object she is holding."
-      },
-      {
-        "x": 22,
-        "y": 75,
-        "text": "Her patterned trousers and chair seat blend together, making the leg and seat boundaries unclear."
-      },
-      {
-        "x": 67,
-        "y": 69,
-        "text": "The far chair's legs and the table supports intersect in inconsistent depth order."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "088",
-    "image": "images/088.webp",
-    "alt": "A crowded city street with lots of people walking around.",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 49,
-        "y": 57,
-        "text": "Many central pedestrians repeat similar silhouettes while limbs and neighboring bodies fuse together."
-      },
-      {
-        "x": 83,
-        "y": 29,
-        "text": "Shop signs contain text-like blocks and symbols that are not legible words."
-      },
-      {
-        "x": 65,
-        "y": 75,
-        "text": "Several foreground people have incomplete feet or legs that dissolve into their shadows."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "089",
-    "image": "images/089.webp",
-    "alt": "A man stands next to a motorbike on some pavement.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 32,
-        "y": 66,
-        "text": "The motorcycle's engine and exhaust contain plausible-looking detail that fails to connect into traceable parts."
-      },
-      {
-        "x": 28,
-        "y": 51,
-        "text": "Handlebars, mirrors and cables intersect at mechanically unlikely angles."
-      },
-      {
-        "x": 68,
-        "y": 53,
-        "text": "The distant people's faces and limbs collapse into malformed shapes despite strong surrounding detail."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "090",
-    "image": "images/090.webp",
-    "alt": "A man and two women walking their dogs and hiking in the woods.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 52,
-        "y": 78,
-        "text": "The black dog's legs and paws merge together, making its walking stance anatomically impossible to follow."
-      },
-      {
-        "x": 29,
-        "y": 73,
-        "text": "The left dog's leash, front legs and the hiker's hand overlap into an unclear tangle."
-      },
-      {
-        "x": 77,
-        "y": 75,
-        "text": "The small dog's body and legs have toy-like proportions and fused paws."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "091",
-    "image": "images/091.webp",
-    "alt": "a person riding a motorcycle on an enclosed road",
-    "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 51,
-        "y": 61,
-        "text": "The motorcycle's front wheel, forks and engine collapse into one tiny, asymmetric blob."
-      },
-      {
-        "x": 50,
-        "y": 49,
-        "text": "The rider's arms merge with the handlebars and torso, leaving no clear hand positions."
-      },
-      {
-        "x": 57,
-        "y": 36,
-        "text": "The bright vehicle behind the rider has a soft rectangular form with no stable details."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "092",
-    "image": "images/092.webp",
-    "alt": "A man talking on a cell phone walking an orange bike across a street.",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 53,
-        "y": 55,
-        "text": "The phone hand has fused fingers and an unclear connection between thumb, phone and face."
-      },
-      {
-        "x": 49,
-        "y": 77,
-        "text": "Crank, chain and rear frame parts overlap without a workable bicycle mechanism."
-      },
-      {
-        "x": 36,
-        "y": 71,
-        "text": "The orange frame tubes join around the pedals at inconsistent angles."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "093",
-    "image": "images/093.webp",
-    "alt": "A person holds a flip phone displaying the screen.",
-    "ai": true,
-    "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 51,
-        "y": 70,
-        "text": "The keypad mixes repeated numbers with meaningless warped symbols and inconsistent button labels."
-      },
-      {
-        "x": 52,
-        "y": 31,
-        "text": "The screen shows tiny pseudo-text that looks typographic but is not readable interface content."
-      },
-      {
-        "x": 25,
-        "y": 48,
-        "text": "The thumb and palm transition is unusually smooth, with distorted finger anatomy around the phone."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "094",
-    "image": "images/094.webp",
-    "alt": "a girl sitting at a kitchen table in a home",
-    "ai": true,
-    "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 36,
-        "y": 61,
-        "text": "The child's torso appears to pass through the tabletop; there is no plausible chair or body position behind it."
-      },
-      {
-        "x": 37,
-        "y": 60,
-        "text": "Both forearms terminate at the table in simplified shapes without visible hands."
-      },
-      {
-        "x": 32,
-        "y": 31,
-        "text": "The tall plant's leaves merge into flat ribbon-like forms with inconsistent stems."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "095",
-    "image": "images/095.webp",
-    "alt": "A man in hipster clothes straddling a bicycle on the sidewalk.",
-    "ai": true,
-    "generator": "Stable Diffusion XL",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 43,
-        "y": 60,
-        "text": "The left hand merges with the handlebar grip, brake and cable rather than wrapping around them."
-      },
-      {
-        "x": 58,
-        "y": 62,
-        "text": "The right wrist, watch and handlebar overlap with unclear finger placement."
-      },
-      {
-        "x": 46,
-        "y": 80,
-        "text": "The chain, crank and rear-wheel area contain tangled lines that do not form a consistent drivetrain."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "096",
-    "image": "images/096.webp",
-    "alt": "An older woman sits in a sweater at the beach.",
-    "ai": true,
-    "generator": "DALL\u00b7E 3",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 58,
-        "y": 68,
-        "text": "The raised hand under the chin has elongated, merged fingers that blend directly into the sweater cuff."
-      },
-      {
-        "x": 38,
-        "y": 72,
-        "text": "Knitted loops repeat and dissolve around the lower sleeve instead of following a consistent fabric structure."
-      },
-      {
-        "x": 53,
-        "y": 39,
-        "text": "Fine facial details are asymmetrical and overly smoothed compared with the sharply textured sweater."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "097",
-    "image": "images/097.webp",
-    "alt": "A man is sitting on a bench reading a book.",
-    "ai": true,
-    "generator": "Midjourney v6",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 50,
-        "y": 60,
-        "text": "The fingers holding the book merge into the page edges, with no convincing grip."
-      },
-      {
-        "x": 58,
-        "y": 63,
-        "text": "Page lines and printed content turn into soft, unreadable marks."
-      },
-      {
-        "x": 23,
-        "y": 71,
-        "text": "The bench slats and metal supports meet or terminate inconsistently behind the man."
-      }
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "id": "098",
-    "image": "images/098.webp",
-    "alt": "a man is reading a book in a car with a small dog",
-    "ai": true,
-    "generator": "Stable Diffusion 3.5",
-    "source": "VCT\u00b2 COCO_AI",
-    "signs": [
-      {
-        "x": 34,
-        "y": 73,
-        "text": "The book cover uses ornate pseudo-lettering and an illustration that does not resolve into readable print."
-      },
-      {
-        "x": 41,
-        "y": 76,
-        "text": "The fingers holding the book are fused and partly disappear into its edge."
-      },
-      {
-        "x": 72,
-        "y": 68,
-        "text": "The dog seems to emerge from the man's clothing, with its body and forelegs hidden by an impossible boundary."
-      }
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "id": "099",
-    "image": "images/099.webp",
+    "id": "77f788fb",
+    "image": "images/77f788fb.webp",
     "alt": "A blurry motion picture of a person doing a wheelie on a motorcycle.",
     "ai": true,
     "generator": "Stable Diffusion 3",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 61,
-        "y": 58,
+        "x": 61.0,
+        "y": 58.0,
         "text": "The rider's hands, handlebars and front controls merge together without distinct grips or levers."
       },
       {
-        "x": 54,
-        "y": 76,
+        "x": 54.0,
+        "y": 76.0,
         "text": "Engine, frame and the rider's boot overlap into a smooth cluster with missing mechanical connections."
       },
       {
-        "x": 65,
-        "y": 87,
+        "x": 65.0,
+        "y": 87.0,
         "text": "The front-wheel shadow and contact patch do not cleanly match the lifted wheel's geometry."
       }
     ],
     "difficulty": "hard"
   },
   {
-    "id": "100",
-    "image": "images/100.webp",
+    "id": "8bfc96d9",
+    "image": "images/8bfc96d9.webp",
+    "alt": "A pavilion in the middle of a pond with trees",
+    "ai": false,
+    "source": "Wikimedia Commons: Panoramic view of Hyangwonjeong Pavilion in its pond at Gyeongbokgung Palace with blue sky in Seoul.jpg by Basile Morin (CC BY-SA 4.0), https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Hyangwonjeong_Pavilion_in_its_pond_at_Gyeongbokgung_Palace_with_blue_sky_in_Seoul.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "6bf73825",
+    "image": "images/6bf73825.webp",
+    "alt": "A man riding on the back of a brown horse in front of a truck.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 50.0,
+        "y": 57.0,
+        "text": "The saddle, blanket and rider's legs blend into layered fabric-like forms with no clear stirrup connection."
+      },
+      {
+        "x": 67.0,
+        "y": 41.0,
+        "text": "Reins and bridle straps fade or join the horse's head at inconsistent points."
+      },
+      {
+        "x": 70.0,
+        "y": 88.0,
+        "text": "Trailer rails, wheel and horse legs overlap with confused depth ordering."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a8bf0b03",
+    "image": "images/a8bf0b03.webp",
+    "alt": "two lines of motorcycles driving down the road while a crowd watches",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 55.0,
+        "y": 57.0,
+        "text": "The central riders and headlights merge into repeated blobs; wheels and handlebars cannot be followed."
+      },
+      {
+        "x": 84.0,
+        "y": 61.0,
+        "text": "The nearest motorcycle loses coherent front-wheel and fork geometry."
+      },
+      {
+        "x": 30.0,
+        "y": 51.0,
+        "text": "Distant motorcycles repeat nearly identical bright headlight patterns with little structural detail."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "00f0026d",
+    "image": "images/00f0026d.webp",
+    "alt": "A man wearing a striped suit standing next to butcher knives.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 28.0,
+        "y": 47.0,
+        "text": "The left arm ends in a fist-like lump that does not convincingly hold or rest on anything."
+      },
+      {
+        "x": 91.0,
+        "y": 56.0,
+        "text": "A large knife floats upright at the frame edge without a visible support."
+      },
+      {
+        "x": 60.0,
+        "y": 85.0,
+        "text": "The meat and the man's hand touch with smeared boundaries and ambiguous fingers."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "73c63418",
+    "image": "images/73c63418.webp",
+    "alt": "A man stands next to a motorbike on some pavement.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 32.0,
+        "y": 66.0,
+        "text": "The motorcycle's engine and exhaust contain plausible-looking detail that fails to connect into traceable parts."
+      },
+      {
+        "x": 28.0,
+        "y": 51.0,
+        "text": "Handlebars, mirrors and cables intersect at mechanically unlikely angles."
+      },
+      {
+        "x": 68.0,
+        "y": 53.0,
+        "text": "The distant people's faces and limbs collapse into malformed shapes despite strong surrounding detail."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "c461b156",
+    "image": "images/c461b156.webp",
+    "alt": "a man is reading a book in a car with a small dog",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 34.0,
+        "y": 73.0,
+        "text": "The book cover uses ornate pseudo-lettering and an illustration that does not resolve into readable print."
+      },
+      {
+        "x": 41.0,
+        "y": 76.0,
+        "text": "The fingers holding the book are fused and partly disappear into its edge."
+      },
+      {
+        "x": 72.0,
+        "y": 68.0,
+        "text": "The dog seems to emerge from the man's clothing, with its body and forelegs hidden by an impossible boundary."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "8dc7f351",
+    "image": "images/8dc7f351.webp",
     "alt": "A person on a motor bike doing a wheelie jump",
     "ai": true,
     "generator": "Stable Diffusion 2.1",
-    "source": "VCT\u00b2 COCO_AI",
+    "source": "VCT² COCO_AI",
     "signs": [
       {
-        "x": 54,
-        "y": 69,
+        "x": 54.0,
+        "y": 69.0,
         "text": "The rider's boot, peg and engine merge into one dark shape without a plausible foot position."
       },
       {
-        "x": 45,
-        "y": 74,
+        "x": 45.0,
+        "y": 74.0,
         "text": "The engine and frame contain disconnected tubes and panels rather than a coherent motorcycle structure."
       },
       {
-        "x": 60,
-        "y": 58,
+        "x": 60.0,
+        "y": 58.0,
         "text": "Arms and handlebars meet in simplified shapes with no clearly visible hands."
       }
     ],
     "difficulty": "hard"
+  },
+  {
+    "id": "201cd755",
+    "image": "images/201cd755.webp",
+    "alt": "A man and a woman standing next to a motor cycle.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 39.0,
+        "y": 58.0,
+        "text": "The man's hand beside the motorcycle is an indistinct shape with fingers merged into the handlebar area."
+      },
+      {
+        "x": 57.0,
+        "y": 70.0,
+        "text": "Engine tubes, frame and exhaust join into glossy decorative geometry rather than traceable parts."
+      },
+      {
+        "x": 70.0,
+        "y": 43.0,
+        "text": "The woman's hand against the man's shoulder lacks clearly separated fingers."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "9ffbee52",
+    "image": "images/9ffbee52.webp",
+    "alt": "A tabby cat sleeping on a piano",
+    "ai": true,
+    "generator": "SDXL Realism Engine",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 50.5,
+        "y": 82.1,
+        "text": "The black keys don't follow a real piano's repeating groups of two and three."
+      },
+      {
+        "x": 51.7,
+        "y": 95.3,
+        "text": "The white keys vary in width and don't line up with the black keys."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "50ae2c12",
+    "image": "images/50ae2c12.webp",
+    "alt": "A woman holding a large pan in a kitchen",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 78.0,
+        "y": 49.0,
+        "text": "The hand and pan handle blend together, making the grip difficult to trace."
+      },
+      {
+        "x": 37.0,
+        "y": 68.0,
+        "text": "Burners and supports form ornate but mechanically inconsistent stove geometry."
+      },
+      {
+        "x": 85.0,
+        "y": 16.0,
+        "text": "Small background utensils turn into vague, repeated decorative shapes."
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "9a0d8462",
+    "image": "images/9a0d8462.webp",
+    "alt": "A man standing outside of a building next to bicycles.",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 24.0,
+        "y": 73.0,
+        "text": "The foreground bicycle wheels overlap into a dense tangle of spokes and frames that cannot be traced."
+      },
+      {
+        "x": 78.0,
+        "y": 70.0,
+        "text": "The main bicycle's chain, crank and rear frame do not connect as functional parts."
+      },
+      {
+        "x": 72.0,
+        "y": 26.0,
+        "text": "Shop signs contain blurred pseudo-writing instead of stable, readable text."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "55b856b1",
+    "image": "images/55b856b1.webp",
+    "alt": "A woman walking a small dog along a city sidewalk",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "6629b309",
+    "image": "images/6629b309.webp",
+    "alt": "A wood-panelled study with a bookcase and desk",
+    "ai": true,
+    "generator": "GPT Image 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2ebb5637",
+    "image": "images/2ebb5637.webp",
+    "alt": "Six people in a boat rowing on a body of water.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 97.0,
+        "y": 31.0,
+        "text": "The person at the right edge is abruptly malformed and clipped, with a partial face and arm."
+      },
+      {
+        "x": 82.0,
+        "y": 59.0,
+        "text": "Hands and oar handles overlap into ambiguous grips rather than distinct fingers around the shaft."
+      },
+      {
+        "x": 28.0,
+        "y": 60.0,
+        "text": "The left rower's hand, oar and boat edge merge together."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "8773ce1a",
+    "image": "images/8773ce1a.webp",
+    "alt": "A person holding a skateboard overlooks a dead field of crops.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "c5792e77",
+    "image": "images/c5792e77.webp",
+    "alt": "Two beach chairs and an umbrella on a sandy beach",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5 Large",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 74.8,
+        "y": 61.3,
+        "text": "The chair casts a long shadow to the right, but the big umbrella casts none at all."
+      },
+      {
+        "x": 41.8,
+        "y": 65.7,
+        "text": "The bottles and bag between the chairs are smeared, half-formed objects."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "1ef1fabf",
+    "image": "images/1ef1fabf.webp",
+    "alt": "A woman uses a paintbrush on a melting candle.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "85389018",
+    "image": "images/85389018.webp",
+    "alt": "A person in a kitchen looking at the oven.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "efa25ccb",
+    "image": "images/efa25ccb.webp",
+    "alt": "People standing on a roadway next to a vintage motorcycle.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 53.0,
+        "y": 57.0,
+        "text": "The seated rider's lower body merges into the motorcycle and lacks a clear leg-to-foot connection."
+      },
+      {
+        "x": 53.0,
+        "y": 69.0,
+        "text": "Engine pipes and frame pieces weave into decorative shapes that do not form a workable motorcycle."
+      },
+      {
+        "x": 10.0,
+        "y": 38.0,
+        "text": "The distant riders and motorcycles collapse into repeated, malformed silhouettes."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0384490e",
+    "image": "images/0384490e.webp",
+    "alt": "A man and two women walking their dogs and hiking in the woods.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 52.0,
+        "y": 78.0,
+        "text": "The black dog's legs and paws merge together, making its walking stance anatomically impossible to follow."
+      },
+      {
+        "x": 29.0,
+        "y": 73.0,
+        "text": "The left dog's leash, front legs and the hiker's hand overlap into an unclear tangle."
+      },
+      {
+        "x": 77.0,
+        "y": 75.0,
+        "text": "The small dog's body and legs have toy-like proportions and fused paws."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "b67bd021",
+    "image": "images/b67bd021.webp",
+    "alt": "A group of older people sitting on a park bench with a dog on a leash.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 49.0,
+        "y": 70.0,
+        "text": "The middle person's arms vanish completely while the coat and bench meet in an unnaturally seamless edge."
+      },
+      {
+        "x": 82.0,
+        "y": 84.0,
+        "text": "The right person's legs merge with the dog, leash and bench support."
+      },
+      {
+        "x": 15.0,
+        "y": 71.0,
+        "text": "The left person's jacket, bag and bench slat blend together without clear depth ordering."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2b8cbf0a",
+    "image": "images/2b8cbf0a.webp",
+    "alt": "A cat sleeping on top of a piano",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000325331.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ed680afe",
+    "image": "images/ed680afe.webp",
+    "alt": "A model standing beside an orange scooter in a crowded room",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 42.0,
+        "y": 65.0,
+        "text": "The scooter's handlebar and headlight controls merge into an ambiguous cluster."
+      },
+      {
+        "x": 52.0,
+        "y": 91.0,
+        "text": "The stand, floor contact and lower scooter body do not resolve into clear mechanical parts."
+      },
+      {
+        "x": 19.0,
+        "y": 45.0,
+        "text": "Background faces and hands become distorted even though nearby clothing remains detailed."
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "c72aa123",
+    "image": "images/c72aa123.webp",
+    "alt": "Two people riding different colored horses down a dirty road.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 37.0,
+        "y": 45.0,
+        "text": "The left rider's hands, reins and the horse's mane merge into one dark, unreadable mass."
+      },
+      {
+        "x": 60.0,
+        "y": 45.0,
+        "text": "The right rider appears to hold reins that do not consistently connect to the bridle."
+      },
+      {
+        "x": 61.0,
+        "y": 79.0,
+        "text": "The horses' raised legs and hooves have inconsistent joints and tapering shapes."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0a71a84e",
+    "image": "images/0a71a84e.webp",
+    "alt": "Two people beside a bench overlooking the water",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "9b4af183",
+    "image": "images/9b4af183.webp",
+    "alt": "A man skateboarding",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000146865.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "af10ff1b",
+    "image": "images/af10ff1b.webp",
+    "alt": "A dog with one blue eye standing on a street",
+    "ai": false,
+    "source": "Wikimedia Commons: Heterochromia dog, Struga.jpg by Liridon (CC BY-SA 4.0), https://commons.wikimedia.org/wiki/File:Heterochromia_dog,_Struga.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "dbf6e1f2",
+    "image": "images/dbf6e1f2.webp",
+    "alt": "A skateboarder is riding his skateboard at night.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "3d57638b",
+    "image": "images/3d57638b.webp",
+    "alt": "People sitting under an umbrella looking at the scenery.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2c7564a3",
+    "image": "images/2c7564a3.webp",
+    "alt": "Women taking picture of themselves while brushing their teeth.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "25111db6",
+    "image": "images/25111db6.webp",
+    "alt": "A little girl in ponytails holding on to a teddy bear.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 39.0,
+        "y": 63.0,
+        "text": "The girl's forearm, bracelet and teddy bear fuse together, making the hand impossible to locate."
+      },
+      {
+        "x": 65.0,
+        "y": 72.0,
+        "text": "The other hand becomes a small smooth shape merged into the bear's arm."
+      },
+      {
+        "x": 57.0,
+        "y": 88.0,
+        "text": "The bear's lower legs overlap into mismatched, asymmetrical forms."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "9bbe5ec1",
+    "image": "images/9bbe5ec1.webp",
+    "alt": "A very big teddy bear is next to a woman.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "d4db8597",
+    "image": "images/d4db8597.webp",
+    "alt": "People are waiting for the bus near a bus stop.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ea31387b",
+    "image": "images/ea31387b.webp",
+    "alt": "A group of people sitting around a table under an umbrella.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 31.0,
+        "y": 57.0,
+        "text": "The woman's hands contain merged and duplicated-looking fingers around the object she is holding."
+      },
+      {
+        "x": 22.0,
+        "y": 75.0,
+        "text": "Her patterned trousers and chair seat blend together, making the leg and seat boundaries unclear."
+      },
+      {
+        "x": 67.0,
+        "y": 69.0,
+        "text": "The far chair's legs and the table supports intersect in inconsistent depth order."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "49d1eb85",
+    "image": "images/49d1eb85.webp",
+    "alt": "A man getting a drink from a water fountain that is a toilet.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "d561a688",
+    "image": "images/d561a688.webp",
+    "alt": "A plate of fish with rice and tomatoes on a purple table",
+    "ai": true,
+    "generator": "Nano Banana 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "7781e9d0",
+    "image": "images/7781e9d0.webp",
+    "alt": "A young man standing next to a race car with the red sox logo on it's hood.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "9ce01129",
+    "image": "images/9ce01129.webp",
+    "alt": "An older woman sits in a sweater at the beach.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 58.0,
+        "y": 68.0,
+        "text": "The raised hand under the chin has elongated, merged fingers that blend directly into the sweater cuff."
+      },
+      {
+        "x": 38.0,
+        "y": 72.0,
+        "text": "Knitted loops repeat and dissolve around the lower sleeve instead of following a consistent fabric structure."
+      },
+      {
+        "x": 53.0,
+        "y": 39.0,
+        "text": "Fine facial details are asymmetrical and overly smoothed compared with the sharply textured sweater."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "12b06687",
+    "image": "images/12b06687.webp",
+    "alt": "Three young people in a kitchen pointing to a pizza.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "31caf33a",
+    "image": "images/31caf33a.webp",
+    "alt": "People with umbrellas walking through heavy rain",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5 Large",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 10.7,
+        "y": 60.1,
+        "text": "Nobody is holding the black umbrella: the man's hands carry bags while the pole floats above him."
+      },
+      {
+        "x": 71.8,
+        "y": 63.1,
+        "text": "The woman's head covering and body blur into one shape without a clear outline."
+      },
+      {
+        "x": 94.1,
+        "y": 41.2,
+        "text": "This roof edge is a warped line that doesn't connect to any building."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "509bfc81",
+    "image": "images/509bfc81.webp",
+    "alt": "Elephants are in a long line with people on top of them.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "d80999a9",
+    "image": "images/d80999a9.webp",
+    "alt": "A woman in bed with a laptop",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000229653.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "b935dd76",
+    "image": "images/b935dd76.webp",
+    "alt": "A man standing with a bicycle at a marina",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "0054ecc1",
+    "image": "images/0054ecc1.webp",
+    "alt": "A blonde woman sitting on a park bench next to a green bike.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 53.0,
+        "y": 78.0,
+        "text": "The woman's crossed legs and hand blend into the bicycle saddle and frame, obscuring where each object begins."
+      },
+      {
+        "x": 77.0,
+        "y": 62.0,
+        "text": "Handlebars, basket and front wheel do not join into a mechanically coherent bicycle."
+      },
+      {
+        "x": 52.0,
+        "y": 42.0,
+        "text": "The supporting hand near the face has unusually smooth, poorly separated fingers."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "cb4e9871",
+    "image": "images/cb4e9871.webp",
+    "alt": "Boy rides skateboard and does trick over stairs.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a18342a2",
+    "image": "images/a18342a2.webp",
+    "alt": "A chef in a kitchen preparing a meal.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 37.0,
+        "y": 62.0,
+        "text": "The chef's knife hand has compressed, fused fingers and an unclear grip."
+      },
+      {
+        "x": 49.0,
+        "y": 77.0,
+        "text": "Food pieces repeat as smooth pale lumps with inconsistent edges and shadows."
+      },
+      {
+        "x": 53.0,
+        "y": 41.0,
+        "text": "Tiny marks on the uniform resemble text but do not form a readable name or logo."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "1b07fa0a",
+    "image": "images/1b07fa0a.webp",
+    "alt": "Beach chairs and an umbrella on the beach",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000499621.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "f326a815",
+    "image": "images/f326a815.webp",
+    "alt": "A woman kisses a man as they sit on a motorcycle.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "da9a9d38",
+    "image": "images/da9a9d38.webp",
+    "alt": "Zebras and other animals in tall grass",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000359458.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "58bd1e2b",
+    "image": "images/58bd1e2b.webp",
+    "alt": "a person riding skis in the middle of a snowy street",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "b1bd214e",
+    "image": "images/b1bd214e.webp",
+    "alt": "A man is cooking in a crowded kitchen.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 50.0,
+        "y": 53.0,
+        "text": "The chef's stirring hand and utensil fuse together, leaving an unclear number and arrangement of fingers."
+      },
+      {
+        "x": 76.0,
+        "y": 40.0,
+        "text": "Background chefs repeat similar faces and hats while their hands dissolve into vague shapes."
+      },
+      {
+        "x": 70.0,
+        "y": 76.0,
+        "text": "Vegetables and utensils on the counter have decorative outlines but inconsistent object boundaries."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "6648cadd",
+    "image": "images/6648cadd.webp",
+    "alt": "A brown bear standing at the edge of a reedy lake",
+    "ai": true,
+    "generator": "GPT Image 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0cb03480",
+    "image": "images/0cb03480.webp",
+    "alt": "A black and white photo of an older man skiing.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "ca6426d5",
+    "image": "images/ca6426d5.webp",
+    "alt": "A guy sitting on his motorcycle while a woman stands beside him",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "e478f53a",
+    "image": "images/e478f53a.webp",
+    "alt": "A person walking in the rain on the sidewalk.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "e158651b",
+    "image": "images/e158651b.webp",
+    "alt": "A bowl of udon noodles with beef and cabbage",
+    "ai": false,
+    "source": "Wikimedia Commons: Yoshida udon 001.jpg by Ocdp (CC0), https://commons.wikimedia.org/wiki/File:Yoshida_udon_001.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "4e335ce0",
+    "image": "images/4e335ce0.webp",
+    "alt": "A woman smiling while working at a sewing machine in a garment factory",
+    "ai": true,
+    "generator": "FLUX.2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "76cb9432",
+    "image": "images/76cb9432.webp",
+    "alt": "A person in a helmet standing by their motorcycle.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "7c79ea53",
+    "image": "images/7c79ea53.webp",
+    "alt": "People walking toward an airplane to board it.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0afdcda5",
+    "image": "images/0afdcda5.webp",
+    "alt": "A woman is taking a picture of herself in a bathroom mirror.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ea56dc0f",
+    "image": "images/ea56dc0f.webp",
+    "alt": "a person riding a motorcycle on an enclosed road",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 51.0,
+        "y": 61.0,
+        "text": "The motorcycle's front wheel, forks and engine collapse into one tiny, asymmetric blob."
+      },
+      {
+        "x": 50.0,
+        "y": 49.0,
+        "text": "The rider's arms merge with the handlebars and torso, leaving no clear hand positions."
+      },
+      {
+        "x": 57.0,
+        "y": 36.0,
+        "text": "The bright vehicle behind the rider has a soft rectangular form with no stable details."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "5f5d88a0",
+    "image": "images/5f5d88a0.webp",
+    "alt": "A crowded city street with lots of people walking around.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 49.0,
+        "y": 57.0,
+        "text": "Many central pedestrians repeat similar silhouettes while limbs and neighboring bodies fuse together."
+      },
+      {
+        "x": 83.0,
+        "y": 29.0,
+        "text": "Shop signs contain text-like blocks and symbols that are not legible words."
+      },
+      {
+        "x": 65.0,
+        "y": 75.0,
+        "text": "Several foreground people have incomplete feet or legs that dissolve into their shadows."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "4c2bd999",
+    "image": "images/4c2bd999.webp",
+    "alt": "A woman carrying a red umbrella on a wet city street",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "6f40b70f",
+    "image": "images/6f40b70f.webp",
+    "alt": "a girl sitting at a kitchen table in a home",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 36.0,
+        "y": 61.0,
+        "text": "The child's torso appears to pass through the tabletop; there is no plausible chair or body position behind it."
+      },
+      {
+        "x": 37.0,
+        "y": 60.0,
+        "text": "Both forearms terminate at the table in simplified shapes without visible hands."
+      },
+      {
+        "x": 32.0,
+        "y": 31.0,
+        "text": "The tall plant's leaves merge into flat ribbon-like forms with inconsistent stems."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "73e60b96",
+    "image": "images/73e60b96.webp",
+    "alt": "A dog standing next to an address marker and a woman holding an umbrella.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 36.0,
+        "y": 23.0,
+        "text": "The wall sign contains neatly rendered but meaningless numbers and symbols—a common generated-text failure."
+      },
+      {
+        "x": 54.0,
+        "y": 50.0,
+        "text": "The umbrella shaft runs into the face while the hand and handle form an unclear grip."
+      },
+      {
+        "x": 67.0,
+        "y": 61.0,
+        "text": "The leash handle and the woman's gloved fingers melt into a single dark loop."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "c2687d8a",
+    "image": "images/c2687d8a.webp",
+    "alt": "A person sits on top of a motorcycle with a stuffed toy.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 70.0,
+        "y": 91.0,
+        "text": "The lettering on the motorcycle fairing is a made-up, logo-like scrawl rather than a readable brand name."
+      },
+      {
+        "x": 49.0,
+        "y": 82.0,
+        "text": "The rider's shoe, ankle and motorcycle parts blend into a muddled patch with unclear boundaries."
+      },
+      {
+        "x": 76.0,
+        "y": 55.0,
+        "text": "The handlebar, mirror and windscreen join at mechanically ambiguous angles."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2b1a068d",
+    "image": "images/2b1a068d.webp",
+    "alt": "A tennis player on a court facing the sun",
+    "ai": true,
+    "generator": "HunyuanDiT 1.2",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 43.0,
+        "y": 44.0,
+        "text": "The hand grips the racket handle in an impossible way; fingers merge with the grip."
+      },
+      {
+        "x": 31.0,
+        "y": 54.0,
+        "text": "The string pattern is irregular and the frame is lopsided."
+      },
+      {
+        "x": 61.3,
+        "y": 29.0,
+        "text": "The shirt's seams and folds don't follow the shape of her back."
+      },
+      {
+        "x": 78.2,
+        "y": 91.4,
+        "text": "The shoe and ankle blur into a malformed shape."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "1270a2a9",
+    "image": "images/1270a2a9.webp",
+    "alt": "A man in a black turtleneck adjusting his sunglasses",
+    "ai": true,
+    "generator": "Nano Banana 2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "58638f48",
+    "image": "images/58638f48.webp",
+    "alt": "A man is sitting on a bench reading a book.",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 50.0,
+        "y": 60.0,
+        "text": "The fingers holding the book merge into the page edges, with no convincing grip."
+      },
+      {
+        "x": 58.0,
+        "y": 63.0,
+        "text": "Page lines and printed content turn into soft, unreadable marks."
+      },
+      {
+        "x": 23.0,
+        "y": 71.0,
+        "text": "The bench slats and metal supports meet or terminate inconsistently behind the man."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "cc2f8f80",
+    "image": "images/cc2f8f80.webp",
+    "alt": "A man delivering a block of ice on a city street",
+    "ai": false,
+    "source": "Wikimedia Commons: Ho-Chi-Minh-City Vietnam Ice-Delivery-02.jpg by CEphoto, Uwe Aranas (CC BY-SA 3.0), https://commons.wikimedia.org/wiki/File:Ho-Chi-Minh-City_Vietnam_Ice-Delivery-02.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "d8953f4a",
+    "image": "images/d8953f4a.webp",
+    "alt": "two women loading their bicycles onto a bus rack",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "207a4d4c",
+    "image": "images/207a4d4c.webp",
+    "alt": "A labrador sitting on a cliff edge above a canyon",
+    "ai": true,
+    "generator": "FLUX.2",
+    "source": "DailyBench FakeBench (Apache 2.0)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "cb72d0da",
+    "image": "images/cb72d0da.webp",
+    "alt": "A dirt bike rider doing a stunt jump in the air",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "a4a26bf2",
+    "image": "images/a4a26bf2.webp",
+    "alt": "A woman on a tennis court about to return a ball",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000290618.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "4ba80bf8",
+    "image": "images/4ba80bf8.webp",
+    "alt": "A clay cup of spiced tea",
+    "ai": false,
+    "source": "Wikimedia Commons: Zafrani dum chai.jpg by Shaharbano (CC BY 4.0), https://commons.wikimedia.org/wiki/File:Zafrani_dum_chai.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "7ac37573",
+    "image": "images/7ac37573.webp",
+    "alt": "People are looking at a decorative cake with long candles.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "27235935",
+    "image": "images/27235935.webp",
+    "alt": "A woman in bed using a laptop at night",
+    "ai": true,
+    "generator": "FLUX.1 [dev]",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 46.2,
+        "y": 35.3,
+        "text": "Her eyes are unevenly drawn and don't quite look in the same direction."
+      },
+      {
+        "x": 54.8,
+        "y": 77.9,
+        "text": "Her hands melt into the duvet and keyboard; you can't count the fingers."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "484e196d",
+    "image": "images/484e196d.webp",
+    "alt": "A man sitting among bicycles on a city street",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 38.0,
+        "y": 82.0,
+        "text": "The rear bicycle dissolves into overlapping tubes and incomplete wheel geometry."
+      },
+      {
+        "x": 65.0,
+        "y": 70.0,
+        "text": "The man's hands, the handlebar and the neighboring bicycle merge into one unclear structure."
+      },
+      {
+        "x": 67.0,
+        "y": 91.0,
+        "text": "Pedals, feet and wheel parts overlap without a mechanically possible arrangement."
+      }
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "082b4145",
+    "image": "images/082b4145.webp",
+    "alt": "A television set up outdoors with a video game on it",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000539883.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "e1ca5e7e",
+    "image": "images/e1ca5e7e.webp",
+    "alt": "A person holds a flip phone displaying the screen.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 51.0,
+        "y": 70.0,
+        "text": "The keypad mixes repeated numbers with meaningless warped symbols and inconsistent button labels."
+      },
+      {
+        "x": 52.0,
+        "y": 31.0,
+        "text": "The screen shows tiny pseudo-text that looks typographic but is not readable interface content."
+      },
+      {
+        "x": 25.0,
+        "y": 48.0,
+        "text": "The thumb and palm transition is unusually smooth, with distorted finger anatomy around the phone."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "983970ad",
+    "image": "images/983970ad.webp",
+    "alt": "A woman hovering over food on a wooden table.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 64.0,
+        "y": 55.0,
+        "text": "The right hand has fused, irregular fingers where it holds the food."
+      },
+      {
+        "x": 41.0,
+        "y": 58.0,
+        "text": "The left hand and leafy garnish overlap in a way that makes the grip impossible to follow."
+      },
+      {
+        "x": 77.0,
+        "y": 78.0,
+        "text": "The dishes contain repeated glossy food-like textures without consistent ingredients."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "688bcad5",
+    "image": "images/688bcad5.webp",
+    "alt": "A man talking on a cell phone walking an orange bike across a street.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 53.0,
+        "y": 55.0,
+        "text": "The phone hand has fused fingers and an unclear connection between thumb, phone and face."
+      },
+      {
+        "x": 49.0,
+        "y": 77.0,
+        "text": "Crank, chain and rear frame parts overlap without a workable bicycle mechanism."
+      },
+      {
+        "x": 36.0,
+        "y": 71.0,
+        "text": "The orange frame tubes join around the pedals at inconsistent angles."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "de483921",
+    "image": "images/de483921.webp",
+    "alt": "A girl is sitting by her dog on the stairs.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "d9679c2a",
+    "image": "images/d9679c2a.webp",
+    "alt": "A young child stands in the kitchen with an adult.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "9cff0e7b",
+    "image": "images/9cff0e7b.webp",
+    "alt": "A man flying a kite in a park on a clear day",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "52295e0b",
+    "image": "images/52295e0b.webp",
+    "alt": "The airplane is on the runway with two young men standing by.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "e29a43e6",
+    "image": "images/e29a43e6.webp",
+    "alt": "A young man jumping up into the air to catch a Frisbee.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "c790334c",
+    "image": "images/c790334c.webp",
+    "alt": "A skateboarder doing a trick off a concrete ledge",
+    "ai": true,
+    "generator": "FLUX.1 [dev]",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 57.7,
+        "y": 73.0,
+        "text": "The deck graphics are meaningless scribbles and the wheels sit at inconsistent angles."
+      },
+      {
+        "x": 60.9,
+        "y": 23.5,
+        "text": "The logo on the shirt is garbled pseudo-text."
+      },
+      {
+        "x": 82.6,
+        "y": 39.6,
+        "text": "The fingers of this hand are fused into a malformed shape."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "0e31bbdc",
+    "image": "images/0e31bbdc.webp",
+    "alt": "A close-up of a retriever's head in profile",
+    "ai": false,
+    "source": "Wikimedia Commons: Nova Scotia Duck-Tolling Retriever headshot.JPG by kallerna (CC BY-SA 3.0), https://commons.wikimedia.org/wiki/File:Nova_Scotia_Duck-Tolling_Retriever_headshot.JPG",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "4fb0593c",
+    "image": "images/4fb0593c.webp",
+    "alt": "A man riding a dirt bike on a country road in a forest.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 67.0,
+        "y": 77.0,
+        "text": "The front hub, spokes and brake parts form a noisy mechanical tangle rather than distinct components."
+      },
+      {
+        "x": 47.0,
+        "y": 58.0,
+        "text": "The rider's boot, pedal and engine overlap with unclear contact points."
+      },
+      {
+        "x": 58.0,
+        "y": 40.0,
+        "text": "The small plate above the headlight contains distorted pseudo-lettering."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "77a0b3cf",
+    "image": "images/77a0b3cf.webp",
+    "alt": "A jackdaw perched on the handlebars of parked bicycles",
+    "ai": false,
+    "source": "Wikimedia Commons: Jackdaw on bicycle handle bars Bustation Amsterdam Sloterdijk 2016-09-12-6540.jpg by Slaunger (CC BY-SA 4.0), https://commons.wikimedia.org/wiki/File:Jackdaw_on_bicycle_handle_bars_Bustation_Amsterdam_Sloterdijk_2016-09-12-6540.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "9cb8fa60",
+    "image": "images/9cb8fa60.webp",
+    "alt": "A man standing in a kitchen while closing a cupboard door.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "4f313394",
+    "image": "images/4f313394.webp",
+    "alt": "A group of people skiing down a snow covered slope.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "396c9721",
+    "image": "images/396c9721.webp",
+    "alt": "A man in an ATV is moving the cows along.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "d3058701",
+    "image": "images/d3058701.webp",
+    "alt": "Surfers carrying boards along a beach",
+    "ai": false,
+    "source": "Wikimedia Commons: Hendaye école de surf 2012.JPG by JLPC (CC BY-SA 3.0), https://commons.wikimedia.org/wiki/File:Hendaye_%C3%A9cole_de_surf_2012.JPG",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "3bbd14d7",
+    "image": "images/3bbd14d7.webp",
+    "alt": "A little girl is mixing in a  kitchen bowl while standing on a chair.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 49.0,
+        "y": 57.0,
+        "text": "The child's hand appears to terminate against the chair, with no convincing fingers or grip."
+      },
+      {
+        "x": 75.0,
+        "y": 59.0,
+        "text": "The oversized metal vessels hide the torso and merge into one another with inconsistent rims."
+      },
+      {
+        "x": 20.0,
+        "y": 29.0,
+        "text": "Background utensils become floating, soft-edged shapes rather than identifiable objects."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "1da3ca96",
+    "image": "images/1da3ca96.webp",
+    "alt": "A group of men standing in front of a bar having a conversation.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a5727eb3",
+    "image": "images/a5727eb3.webp",
+    "alt": "A man and a woman cook in the kitchen.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a17458f2",
+    "image": "images/a17458f2.webp",
+    "alt": "A chef in a kitchen standing next to a counter with jars and containers.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 57.0,
+        "y": 60.0,
+        "text": "The sleeve contains broken, logo-like marks that imitate embroidery without readable text."
+      },
+      {
+        "x": 43.0,
+        "y": 78.0,
+        "text": "The chef's lowered hand disappears into the counter edge rather than ending in visible fingers."
+      },
+      {
+        "x": 25.0,
+        "y": 75.0,
+        "text": "Several jars have inconsistent rims and contents that blur into the glass."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "801e18b7",
+    "image": "images/801e18b7.webp",
+    "alt": "People standing around a park bench next to a bicycle.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 54.0,
+        "y": 62.0,
+        "text": "Several hands are reduced to mitten-like shapes or disappear where they should hold objects."
+      },
+      {
+        "x": 73.0,
+        "y": 69.0,
+        "text": "The bicycle frame, pedals and rider's legs overlap without a coherent mechanical structure."
+      },
+      {
+        "x": 43.0,
+        "y": 48.0,
+        "text": "Faces share simplified, inconsistent features despite being at similar distances."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "1a90e01e",
+    "image": "images/1a90e01e.webp",
+    "alt": "A man is walking down the street in front of a red door.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a4a71863",
+    "image": "images/a4a71863.webp",
+    "alt": "A man stirring food in a pan",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
+  },
+  {
+    "id": "53e00117",
+    "image": "images/53e00117.webp",
+    "alt": "A man sitting in a window ledge with a cell phone in his hand.",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 41.0,
+        "y": 82.0,
+        "text": "The fingers around the phone merge together and the phone edge seems to pass into the hand."
+      },
+      {
+        "x": 57.0,
+        "y": 56.0,
+        "text": "The neck and shirt collar meet in an unusually smooth, cutout-like boundary."
+      },
+      {
+        "x": 83.0,
+        "y": 56.0,
+        "text": "The cast shadow's head and shoulder profile does not closely match the man's silhouette."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "76742e53",
+    "image": "images/76742e53.webp",
+    "alt": "People with umbrellas walking in the rain",
+    "ai": false,
+    "source": "MSCOCO COCO_val2014_000000345071.jpg (Flickr; license varies)",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "9ae4fd90",
+    "image": "images/9ae4fd90.webp",
+    "alt": "A birthday boy with car shaped cake and candles on it.",
+    "ai": true,
+    "generator": "Midjourney v6",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 83.0,
+        "y": 63.0,
+        "text": "The child's hand beside the cake has merged, uneven fingers and an unclear grip on the table edge."
+      },
+      {
+        "x": 47.0,
+        "y": 67.0,
+        "text": "Candles and decorations repeat as tiny irregular spikes that blend into the frosting."
+      },
+      {
+        "x": 64.0,
+        "y": 86.0,
+        "text": "The toy car has warped wheels and pseudo-detail where lettering and windows should be."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "43cae2ce",
+    "image": "images/43cae2ce.webp",
+    "alt": "A group of zebras standing in tall grass",
+    "ai": true,
+    "generator": "Stable Diffusion 3.5 Large",
+    "source": "X-AIGD (CC BY 4.0), prompt from MSCOCO caption",
+    "signs": [
+      {
+        "x": 18.7,
+        "y": 57.3,
+        "text": "The front zebra's legs tangle with the zebra behind it; you can't tell which legs belong to whom."
+      },
+      {
+        "x": 79.7,
+        "y": 70.9,
+        "text": "Legs appear in this gap that don't connect to any zebra's body."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "d53795d8",
+    "image": "images/d53795d8.webp",
+    "alt": "A man sitting on a stone block talking on a cell phone.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "4ae501a5",
+    "image": "images/4ae501a5.webp",
+    "alt": "A woman holding a sheep by its front legs.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "ac8ac4d9",
+    "image": "images/ac8ac4d9.webp",
+    "alt": "A man in a uniform standing on a motorcycle in front of a crowd.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "c037f15b",
+    "image": "images/c037f15b.webp",
+    "alt": "A woman sitting at a table while holding a pair of scissors.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 66.0,
+        "y": 58.0,
+        "text": "The raised hand and scissors are anatomically confused: fingers merge and the tool's loops do not align with them."
+      },
+      {
+        "x": 32.0,
+        "y": 68.0,
+        "text": "The other hand blends into the fabric and cutting tool, obscuring the finger count and grip."
+      },
+      {
+        "x": 67.0,
+        "y": 32.0,
+        "text": "The eyeglass temples and frames bend inconsistently around the face."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "b4a2358a",
+    "image": "images/b4a2358a.webp",
+    "alt": "A man with glasses riding in a car with an adorable dog in the backseat.",
+    "ai": true,
+    "generator": "Stable Diffusion 2.1",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 44.0,
+        "y": 58.0,
+        "text": "The man's hand wraps around the dog as a smooth band, with fingers that merge into the harness."
+      },
+      {
+        "x": 38.0,
+        "y": 67.0,
+        "text": "Collar, leash and chest straps cross and fuse without clear attachment points."
+      },
+      {
+        "x": 93.0,
+        "y": 51.0,
+        "text": "The car's door frame and rear trim end in warped, inconsistent geometry."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "3d0ea15f",
+    "image": "images/3d0ea15f.webp",
+    "alt": "A man stands with his bike in ankle deep water in a flooded city.",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "medium"
+  },
+  {
+    "id": "909f8428",
+    "image": "images/909f8428.webp",
+    "alt": "A man riding a bicycle down a sidewalk.",
+    "ai": true,
+    "generator": "DALL·E 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 49.0,
+        "y": 43.0,
+        "text": "The rider's hands and handlebars form a single dark bar with no convincing fingers or controls."
+      },
+      {
+        "x": 50.0,
+        "y": 72.0,
+        "text": "The bicycle's fork, pedals and front wheel do not connect as a functional frame."
+      },
+      {
+        "x": 76.0,
+        "y": 45.0,
+        "text": "Signs and background details imitate text-like marks without readable words."
+      }
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "1eec5d0f",
+    "image": "images/1eec5d0f.webp",
+    "alt": "A woman, man, and a dog standing in the snow.",
+    "ai": true,
+    "generator": "Stable Diffusion 3",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 38.0,
+        "y": 36.0,
+        "text": "A small hand appears on the woman's far shoulder, but there is no arm that can plausibly connect to it."
+      },
+      {
+        "x": 62.0,
+        "y": 37.0,
+        "text": "The jacket logo resolves into tiny pseudo-text rather than readable lettering."
+      },
+      {
+        "x": 76.0,
+        "y": 91.0,
+        "text": "The dog's rear leg, belly and tail meet in an anatomically confused shape."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "a37dea69",
+    "image": "images/a37dea69.webp",
+    "alt": "A man in hipster clothes straddling a bicycle on the sidewalk.",
+    "ai": true,
+    "generator": "Stable Diffusion XL",
+    "source": "VCT² COCO_AI",
+    "signs": [
+      {
+        "x": 43.0,
+        "y": 60.0,
+        "text": "The left hand merges with the handlebar grip, brake and cable rather than wrapping around them."
+      },
+      {
+        "x": 58.0,
+        "y": 62.0,
+        "text": "The right wrist, watch and handlebar overlap with unclear finger placement."
+      },
+      {
+        "x": 46.0,
+        "y": 80.0,
+        "text": "The chain, crank and rear-wheel area contain tangled lines that do not form a consistent drivetrain."
+      }
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "2566a9be",
+    "image": "images/2566a9be.webp",
+    "alt": "Buildings reflected in the water of a Paris canal",
+    "ai": false,
+    "source": "Wikimedia Commons: Paris 10e Canal Saint-Martin 148.jpg by GFreihalter (CC BY-SA 3.0), https://commons.wikimedia.org/wiki/File:Paris_10e_Canal_Saint-Martin_148.jpg",
+    "signs": [],
+    "difficulty": "hard"
+  },
+  {
+    "id": "5844b5aa",
+    "image": "images/5844b5aa.webp",
+    "alt": "A small child climbs atop a large motorcycle",
+    "ai": false,
+    "source": "COCO reference image via VCT² COCO_AI",
+    "signs": [],
+    "difficulty": "easy"
   }
 ]
